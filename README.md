@@ -2,15 +2,15 @@
 
 <div align="center">
 
-![RoAuth Logo](https://auth.roshkam.ru/favicon.ico)
+![RoAuth Logo](https://raw.githubusercontent.com/RomanKarb/RoAuth/main/assets/favicon.ico)
 
 **Мощный JavaScript SDK для простой и безопасной интеграции RoAuth аутентификации**
 
-[![Version](https://img.shields.io/badge/version-1.28.1-blue.svg)](https://github.com/roshkam/roshkam-gatekeeper)
+[![Version](https://img.shields.io/badge/version-1.28.1-blue.svg)](https://github.com/RomanKarb/RoAuth)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Browser Support](https://img.shields.io/badge/browser-Chrome%20%7C%20Firefox%20%7C%20Safari%20%7C%20Edge-green.svg)](#системные-требования)
 
-[📖 Полная документация](RoAuth_SDK_Documentation.md) • [🌐 Демо](https://auth.roshkam.ru/demo) • [💬 Поддержка](https://support.roshkam.ru)
+[📖 Полная документация](./docs/RoAuth_SDK_Documentation.md) • [🌐 Примеры](#примеры) • [💬 Поддержка](https://github.com/RomanKarb/RoAuth/issues)
 
 </div>
 
@@ -18,7 +18,7 @@
 
 ## ✨ Что такое RoAuth SDK?
 
-RoAuth SDK - это современный JavaScript SDK, который позволяет интегрировать аутентификацию через платформу RoAuth в ваши веб-приложения всего за несколько минут. Создавайте стильные кнопки авторизации с поддержкой popup-окон, кастомными темами и полной безопасностью.
+RoAuth SDK - это легкая и удобная библиотека для интеграции авторизации через RoAuth в ваши веб-приложения. Позволяет быстро добавить вход пользователей, управление сессиями и взаимодействие с API без лишней боли.
 
 ### 🎯 Ключевые возможности
 
@@ -38,7 +38,7 @@ RoAuth SDK - это современный JavaScript SDK, который поз
 ### 1. Подключите SDK
 
 ```html
-<script src="https://auth.roshkam.ru/public/authButton.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/RomanKarb/RoAuth/dist/authButton.js"></script>
 ```
 
 ### 2. Создайте контейнер
@@ -75,7 +75,7 @@ window.RoAuth.createButton({
 <body>
     <div class="roauth-container"></div>
 
-    <script src="https://auth.roshkam.ru/public/authButton.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/RomanKarb/RoAuth/dist/authButton.js"></script>
     <script>
         window.RoAuth.createButton({
             clientId: 'your-client-id',
@@ -89,11 +89,17 @@ window.RoAuth.createButton({
 ### Скачивание файла
 
 ```bash
-# Скачайте SDK файл
-wget https://auth.roshkam.ru/public/authButton.js
+# Скачайте SDK файл с GitHub Releases
+wget https://github.com/RomanKarb/RoAuth/releases/download/v1.28.1/authButton.js
 
 # Или через curl
-curl -O https://auth.roshkam.ru/public/authButton.js
+curl -O https://github.com/RomanKarb/RoAuth/releases/download/v1.28.1/authButton.js
+```
+
+### npm (если опубликовано)
+
+```bash
+npm install roauth-sdk
 ```
 
 ---
@@ -163,7 +169,7 @@ window.RoAuth.createButton({
 
 ## 📚 Документация
 
-📖 **[Полная документация](RoAuth_SDK_Documentation.md)** содержит:
+📖 **[Полная документация](./docs/RoAuth_SDK_Documentation.md)** содержит:
 
 - Детальное API описание
 - Расширенные примеры использования
@@ -195,17 +201,17 @@ window.RoAuth.createButton({
 
 Если у вас возникли проблемы:
 
-1. 📖 Проверьте [документацию](RoAuth_SDK_Documentation.md)
+1. 📖 Проверьте [документацию](./docs/RoAuth_SDK_Documentation.md)
 2. 🔍 Включите verbose logging: `window.roAuthVerbose('on')`
-3. 💬 Обратитесь в [поддержку](https://support.roshkam.ru)
-4. 🐛 Создайте [issue](https://github.com/roshkam/roshkam-gatekeeper/issues)
+3. 💬 Создайте [issue](https://github.com/RomanKarb/RoAuth/issues)
+4. 📝 Проверьте [discussions](https://github.com/RomanKarb/RoAuth/discussions)
 
 ---
 
 ## 📈 Статистика
 
-[![GitHub stars](https://img.shields.io/github/stars/roshkam/roshkam-gatekeeper?style=social)](https://github.com/roshkam/roshkam-gatekeeper/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/roshkam/roshkam-gatekeeper?style=social)](https://github.com/roshkam/roshkam-gatekeeper/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/RomanKarb/RoAuth?style=social)](https://github.com/RomanKarb/RoAuth/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/RomanKarb/RoAuth?style=social)](https://github.com/RomanKarb/RoAuth/network/members)
 
 ---
 
@@ -229,25 +235,26 @@ window.RoAuth.createButton({
 
 ## 📞 Контакты
 
-- **Email**: support@roshkam.ru
-- **Сайт**: https://roshkam.ru
-- **Поддержка**: https://support.roshkam.ru
-- **Telegram**: [@roshkam_support](https://t.me/roshkam_support)
+- **GitHub**: https://github.com/RomanKarb/RoAuth
+- **Issues**: https://github.com/RomanKarb/RoAuth/issues
+- **Discussions**: https://github.com/RomanKarb/RoAuth/discussions
 
 ---
 
 <div align="center">
 
-**Создано с ❤️ командой RoSHkam**
+**Разработано с ❤️**
 
-[🌟 Поставьте звезду](https://github.com/roshkam/roshkam-gatekeeper) если проект вам понравился!
+[🌟 Поставьте звезду](https://github.com/RomanKarb/RoAuth) если проект вам понравился!
 
 </div>
 
-- `login` and `authorize`: max 7 requests per 60 seconds per client IP
-- `validate` and `verify-token`: max 15 requests per 60 seconds per client IP
+## API Rate Limiting
 
-When a client exceeds the limit the API returns HTTP `429` with JSON:
+- `login` и `authorize`: максимум 7 запросов за 60 секунд на один IP клиента
+- `validate` и `verify-token`: максимум 15 запросов за 60 секунд на один IP клиента
+
+При превышении лимита API возвращает HTTP `429` с JSON:
 
 ```json
 {
@@ -257,5 +264,4 @@ When a client exceeds the limit the API returns HTTP `429` with JSON:
 }
 ```
 
-Additionally the `errorResponse` call includes the retry seconds as the 4th parameter where applicable.
-
+Дополнительно вызов `errorResponse` включает количество секунд для повтора в качестве 4-го параметра, где применимо.
