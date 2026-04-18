@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![RoAuth Logo](https://auth.roshkam.ru/favicon.png)
+![RoAuth Logo](https://auth.roshkam.ru/favicon.ico)
 
 **Мощный JavaScript SDK для простой и безопасной интеграции RoAuth аутентификации**
 
