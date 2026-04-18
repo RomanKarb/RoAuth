@@ -155,6 +155,7 @@ window.RoAuth.createButton({
 | `redirectUrl` | string | ✅ | URL для перенаправления после авторизации |
 | `permissions` | string | ❌ | Запрашиваемые разрешения (`email+username`) |
 | `popup` | boolean | ❌ | Включить popup-режим |
+| `lang` | string | ❌ | Установить язык для окна авторизации |
 | `style` | object | ❌ | Настройки внешнего вида |
 | `onSuccess` | function | ❌ | Callback при успешной авторизации |
 | `onError` | function | ❌ | Callback при ошибке |
