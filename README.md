@@ -1,4 +1,4 @@
-# 🚀 RoAuth SDK
+ 🚀 RoAuth SDK
 
 <div align="center">
 
@@ -238,6 +238,8 @@ window.RoAuth.createButton({
 - **GitHub**: https://github.com/RomanKarb/RoAuth
 - **Issues**: https://github.com/RomanKarb/RoAuth/issues
 - **Discussions**: https://github.com/RomanKarb/RoAuth/discussions
+- **Служба поддержки**: https://support.roshkam.ru
+- **Telegram**: https://t.me/roshkam
 
 ---
 
