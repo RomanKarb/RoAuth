@@ -189,7 +189,7 @@ window.RoAuth.createButton(options)
 | `selector` | string | Нет | CSS-селектор контейнеров для кнопок. По умолчанию: `'.roauth-container'` |
 | `clientId` | string | Да | Идентификатор клиента OAuth |
 | `redirectUrl` | string | Да | URL для перенаправления после авторизации |
-| `permissions` | string | Нет | Запрашиваемые разрешения. По умолчанию: `'email+username'` |
+| `permissions` | string | Да | Запрашиваемые разрешения. По умолчанию: `'email+username'` |
 | `onSuccess` | function | Нет | Callback-функция при успешной авторизации |
 | `onError` | function | Нет | Callback-функция при ошибке авторизации |
 | `redirectAfterAuth` | boolean | Нет | Перенаправлять после авторизации. По умолчанию: `false` |
